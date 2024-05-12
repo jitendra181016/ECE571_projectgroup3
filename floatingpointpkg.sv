@@ -28,7 +28,7 @@ endfunction: shortrealtofloat
 
 // DisplayFloatComponents
 
-function void displayfloatcomponents(float f);
+function automatic void displayfloatcomponents(float f);
 $display("sign: %1b exponent: %2h fraction: %h\n",f.sign, f.exponent, f.fraction);
 endfunction: displayfloatcomponents
 
