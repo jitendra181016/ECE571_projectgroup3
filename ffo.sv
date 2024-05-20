@@ -25,7 +25,7 @@ endmodule
 
 
 
-module FFO32(input logic [31:0] b, output logic v, output logic [4:0] p);
+module FFO25(input logic [31:0] b, output logic v, output logic [4:0] p);
 
 
 wire [7:0][1:0] p1;
